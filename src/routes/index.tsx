@@ -7,7 +7,7 @@ export const AppRoutes: React.FC = () => {
   return (
     <RouterDOM>
       <Route path="/" element={<Dashboard />} />
-      <Route path="/add-project" element={<AddProject />} />
+      <Route path="add-project" element={<AddProject />} />
       <Route path="accounts/login" element={<SignIn />} />
       <Route path="accounts/signup" element={<SignUp />} />
     </RouterDOM>
